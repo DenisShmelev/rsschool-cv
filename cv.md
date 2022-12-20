@@ -1,8 +1,12 @@
 # CV
 *Denis Shmelev*
+
 *hannyajp1995@gmail.com*
+
 *+79145848305*
+
 *Discord: Денис Шмелёв(@DenisShmelev)*
+
 ![Фото CV](/image/photo-cv.jpg "CV")
 
 ##About me
