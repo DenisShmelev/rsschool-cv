@@ -10,7 +10,7 @@
 ![Фото CV](/image/photo-cv.jpg "CV")
 
 ##About me
-My goal is to become a great frontend developer. I have some experience in development, I know html and css, I'm starting to learn javascript, that's why I signed up for this course. I have experience in layout, took courses at HtmlAcademy and Udemy. I was born and raised in a small town in the Far East of Russia. I want to develop in my favorite business, and not sit from Monday to Friday at a boring job, waiting for the weekend as soon as possible.
+My goal is to become a great frontend developer. I have some experience in development, I know html and css, I'm starting to learn javascript, that's why I signed up for this course. I have experience in layout, took courses at HtmlAcademy and Udemy. I was born and raised in a small town in the Far East of Russia. I want to develop in my favorite business, and not sit from Monday to Friday at a boring job waiting for the weekend as soon as possible.
 
 ##Skills:
 * html
