@@ -1,11 +1,9 @@
 body {
-    background-image: url("/image/background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #f6ff00;
 }
 
 .container{
@@ -23,7 +21,7 @@ header{
     font-style: italic;
     line-height: 10px;
     max-width: 600px;
-    color: #ffffff;
+    color: #f70808;
     padding-top: 5px;
 }
 
@@ -45,7 +43,7 @@ header{
 
 .info-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #f70808;
 }
 
 .main-info{
@@ -66,7 +64,7 @@ header{
     font-size: 45px;
 }
 .main-title:hover {
-    color: #ffffff;
+    color: #f70808;
     cursor: pointer;
     transition: 0.4s;
     transform: rotate(360deg);
@@ -77,7 +75,7 @@ header{
 }
 
 .about-me-text {
-    color: #ffffff;
+    color: #f70808;
     font-size: 30px;
     font-style: italic;
     margin-top: 50px;
@@ -97,7 +95,7 @@ header{
 
 .cv-link{
     text-decoration: none;
-    color: #ffffff;
+    color: #f70808;
     font-size: 20px;
     margin-right: 30px;
 }
@@ -112,13 +110,13 @@ header{
 }
 
 .title-cv{
-    color: #ffffff;
+    color: #f70808;
     font-size: 30px;
     font-weight: bold;
 }
 
 .item-list-skills {
-    color: #ffffff;
+    color: #f70808;
     font-size: 20px;
 }
 
@@ -139,7 +137,7 @@ header{
 }
 
 .cv-descr{
-    color: #ffffff;
+    color: #f70808;
     font-size: 30px;
     font-style: italic;
 }
