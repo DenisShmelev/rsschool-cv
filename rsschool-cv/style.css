@@ -1,0 +1,164 @@
+body {
+    background-image: url("/image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    min-height: 300px;
+    width: 100%;
+}
+
+.information{
+    font-size: 25px;
+    font-style: italic;
+    line-height: 10px;
+    max-width: 600px;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.name {
+    margin-top: 0;
+}
+
+.mail{
+    margin-top: 0;
+}
+
+.phone{
+    margin-top: 0;
+}
+
+.discord{
+    margin-top: 0;
+}
+
+.info-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-info{
+    position: relative;
+}
+
+.cv-img {
+    display: block;
+    position: absolute;
+    top: -50px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.main-title{
+    margin-top: 0;
+    display: inline-block;
+    font-size: 45px;
+}
+.main-title:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+    transform: rotate(360deg);
+}
+
+.about-me {
+    padding: 50px 0 50px 0;
+}
+
+.about-me-text {
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.navbar{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.cv-list{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.cv-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+
+.skills {
+    padding: 10px;
+}
+
+.skills-title {
+    margin: 0 0 0 20px;
+}
+
+.title-cv{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item-list-skills {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.block-code{
+    background-color: #d3cccc;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+.example-code{
+    color: #000000;
+    font-size: 20px;
+}
+
+.code-title{
+    margin: 0 0 20px 20px;
+}
+
+.cv-descr{
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.work-link{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 35px;
+}
