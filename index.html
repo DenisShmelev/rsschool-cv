@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV#2. HTML, CSS & Git Basics</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <img class="cv-image" src="/image/logo-cv.png" alt="logo" width="75" height="75">
+            <ul class="cv-list">
+                <li><a href="#" class="cv-link">About me</a></li>
+                <li><a href="#" class="cv-link">Skills</a></li>
+                <li><a href="#work" class="cv-link">Work experience</a></li>
+                <li><a href="#education" class="cv-link">Education</a></li>
+                <li><a href="#english" class="cv-link">English Language</a></li>
+            </ul>
+        </nav>
+        <div class="main-info">
+            <div class="information">
+                <p class="name">Denis Shmelev</p>
+                <p class="mail"><a href="mailto:hannyajp1995@gmail.com" class="info-link">hannyajp1995@gmail.com</a></p>
+                <p class="phone"><a href="tel:+79145848305" class="info-link">+79145848305</a></p>
+                <p class="discord">Discord: Денис Шмелёв(@DenisShmelev)</p>
+            </div>
+            <img class="cv-img" src="/image/photo-cv.jpg"
+                alt="Фото CV" height="250" width="250" >
+        </div>
+    </header>
+    <section class="about-me">
+        <p class="about-me-text">My goal is to become a great frontend developer. I have some experience in development,
+            I know html and css, I'm starting to learn javascript, that's why I signed up for this course. I have
+            experience in layout, took courses at HtmlAcademy and Udemy. I was born and raised in a small town in the
+            Far East of Russia. I want to develop in my favorite business, and not sit from Monday to Friday at a boring
+            job, waiting for the weekend as soon as possible.</p>
+    </section>
+    <section class="slills">
+        <h2 class="title-cv skills-title">Skills:</h2>
+        <ul class="item-list-skills">
+            <li>html</li>
+            <li>css</li>
+            <li>bootstrap</li>
+            <li>sass</li>
+            <li>basics javascript</li>
+        </ul>
+        <h2 class="code-title title-cv">Example Code:</h2>
+        <div class="block-code">
+        <code class="example-code">
+            const func = (num) => {<br>
+                if (num > 0) {<br>
+                  return num - 1;<br>
+                }<br>
+                return num + 1;<br>
+              };
+        </code>
+        <br><br>
+        <code class="example-code">
+            &lt;h1&gt;hello world!&lt;/h1&gt;<br>
+            &lt;p&gt;Это пример кода &lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;
+        </code>
+        </div>
+    </section>
+    <section id="work">
+        <h2 class="title-cv">Work experience junior dev</h2>
+        <p class="cv-descr">I took a course on the HtmlAcademy platform.
+            Project on <a class="work-link" href="https://github.com/DenisShmelev/1338433-sedona-35" target="_blank">HtmlAcademy</a></p>
+    </section>
+    <section id="education">
+        <h2 class="title-cv">Education:</h2>
+        <ul class="cv-descr">
+            <li>He graduated from a higher educational institution with a degree in economic security.</li>
+            <li>Professional training courses at the university on Web development.</li>
+            <li>Courses from Ivan Petrichenko on Udemy</li>
+            <li>Website layout courses at HtmlAcademy</li>
+        </ul>
+    </section>
+    <section id="english">
+        <h2 class="title-cv">English language</h2>
+        <p class="cv-descr">My English level is elementary. I watch videos on Youtube in English, I study on the Duolingo app. I read books for children according to my level. I love English language.</p>
+    </section>
+    <footer>
+        <a class="footer-link" href="https://github.com/DenisShmelev">GitHub: DenisShmelev</a>
+        <a class="footer-link" href="https://rs.school/">RS SCHOOL</a>
+    </footer>
+</body>
+</html>
